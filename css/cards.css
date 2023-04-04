@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+
+}
+nav{
+    width: 100%;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    background-color: aquamarine;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.cards{
+    display: flex;
+    height: 500px;
+    
+}
+.card{
+    margin-top: 10%;
+    display: flex;
+    height: 10%;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border-radius: 1rem;
+    
+}
+.texto p{
+    text-align: justify;
+    margin: 0 25%;
+
+}
